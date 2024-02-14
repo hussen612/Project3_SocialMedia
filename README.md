@@ -9,8 +9,6 @@ Frontend
     HTML en CSS (of als je extra uitdaging wilt: SCSS)
     JavaScript is optioneel. Geen OOP (Classes, constructor)
 
-*Let op: Bootstrap is toegestaan, maar is zeker niet verplicht. Je krijgt er dan ook geen extra punten voor als je het wel gebruikt. 
-
 Backend
 
     PHP
