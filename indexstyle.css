@@ -1,23 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#homepagina {
+    background-image: linear-gradient(#000000, rgb(59, 135, 193));
+    height: 100vh;
+    width: 99vw;
+}
+
 #main-image {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 50%;
-    left: 24%;
+    left: 25%;
     transform: translate(-50%, -50%);
-    margin-left: 20px; /* adjust this value as needed */
+    margin-left: 20px;
 }
 
 #slogan {
-    display: flex;
+    color: white;
+    border: solid 1px white;
+    padding: 10px;
+    width: 12cm;
+    font-size: 3em;
     justify-content: center;
-    align-items: center;
     position: absolute;
-    top: 5%;
-    left: 52%;
+    top: -5%;
+    left: 135%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
+}
+
+#join {
+    color: white;
+    border: solid 1px white;
+    font-size: 2em;
+    position: absolute;
+    top: 30%;
+    left: 135%;
+    width: 5cm;
+    padding: 10px;
 }
 
 #button-account-maken{
@@ -25,13 +49,14 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 33%;
-    left: 70%;
+    top: 50%;
+    left: 135%;
+    width: 7cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    background-color: #00c7f4; /* for example, a green background */
-    border: none; /* no border */
-    color: white; /* white text */
+    background-color: #00c7f4; 
+    border: none; 
+    color: white; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -39,13 +64,23 @@
     margin: 4px 2px;
     cursor: pointer;
     padding: 15px 32px;
-    transition-duration: 0.4s; /* smooth transition effect */
+    transition-duration: 0.4s; 
     }
 
 
 
 #button-account-maken:hover {
-background-color: #1e8888; /* change background color when hovered */
+    background-color: #1e8888; 
+}
+
+#keuze {
+    color: white;
+    font-size: 0.7em;
+    border: solid 1px white;
+    padding: 10px;
+    top: 67%;
+    left: 164%;
+    position: absolute;
 }
 
 
@@ -54,12 +89,13 @@ background-color: #1e8888; /* change background color when hovered */
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 33%;
-    left: 70%;
+    top: 80%;
+    left: 135%;
+    width: 7cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #00c7f4; /* for example, a green background */
-    border: none; /* no border */
-    color: white; /* white text */
+    background-color: #00c7f4; 
+    border: none; 
+    color: white; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -67,11 +103,11 @@ background-color: #1e8888; /* change background color when hovered */
     margin: 4px 2px;
     cursor: pointer;
     padding: 15px 32px;
-    transition-duration: 0.4s; /* smooth transition effect */
+    transition-duration: 0.4s; 
 }
 
 
 
 #button-inloggen:hover {
-background-color: #1e8888; /* change background color when hovered */
+background-color: #1e8888;
 }
