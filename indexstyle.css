@@ -5,7 +5,7 @@
 
 #homepagina {
     background-image: linear-gradient(#000000, rgb(59, 135, 193));
-    height: 100vh;
+    height: 150vh;
     width: 99vw;
 }
 
@@ -54,7 +54,7 @@
     width: 7cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-    background-color: #00c7f4; 
+    background-color: rgb(74, 168, 240); 
     border: none; 
     color: white; 
     text-align: center;
@@ -93,7 +93,7 @@
     left: 135%;
     width: 7cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #00c7f4; 
+    background-color: rgb(74, 168, 240); 
     border: none; 
     color: white; 
     text-align: center;
@@ -106,7 +106,25 @@
     transition-duration: 0.4s; 
 }
 
+#titel1 {
+    position: absolute;
+    border: solid 1px white;
+    text-align: center;
+    width: 30cm;
+    top: 160%;
+    left: 5%;
+    padding: 6px;
+}
 
+#beschrijving {
+    position: absolute;
+    border: solid 1px white;
+    padding: 10px;
+    width: 29.8cm;
+    height: 5cm;
+    top: 170%;
+    left: 5%;
+}
 
 #button-inloggen:hover {
 background-color: #1e8888;
