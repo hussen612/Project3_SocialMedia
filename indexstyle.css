@@ -44,7 +44,7 @@
     padding: 10px;
 }
 
-#button-account-maken{
+#button-account-maken {
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -64,8 +64,6 @@
     padding: 15px 32px;
     transition-duration: 0.4s; 
 }
-
-
 
 #button-account-maken:hover {
     background-color: #1e8888; 
@@ -89,8 +87,6 @@
     top: 80%;
     left: 135%;
     width: 7cm;
-    top: 50%;
-    left: 71.7%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(74, 168, 240); 
     border: none; 
@@ -146,7 +142,7 @@ background-color: #1e8888;
     padding: 10px;
     position: absolute;
     top: 235%;
-    left: 60%;
+    left: 70%;
     text-align: center;
     width: 150px;
 }
@@ -156,7 +152,7 @@ background-color: #1e8888;
     padding: 10px;
     position: absolute;
     top: 235%;
-    left: 115%;
+    left: 130%;
     width: 95px;
     text-align: center;
     width: 150px;
@@ -167,7 +163,7 @@ background-color: #1e8888;
     padding: 10px;
     position: absolute;
     top: 235%;
-    left: 174%;
+    left: 195%;
     text-align: center;
-    width: 150px;
+    width: 151px;
 }
