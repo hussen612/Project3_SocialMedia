@@ -1,0 +1,92 @@
+/* Over Ons Pagina */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#homepagina {
+    background-image: linear-gradient(#000000, rgb(59, 135, 193));
+    height: 110vh;
+    width: 99vw;
+}
+
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+}
+
+#titel2 {
+    position: absolute;
+    border: solid 1px white;
+    text-align: center;
+    width: 240px;
+    top: 1%;
+    left: 125%;
+    padding: 6px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#beschrijving2 {
+    position: absolute;
+    border: solid 1px white;
+    padding: 10px;
+    width: 15cm;
+    height: 8cm;
+    top: 22%;
+    left: 125%;
+    color: white;
+}
+
+#nav-homepagina {
+    position: absolute;
+}
+
+#nav-homepagina {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 140%;
+    left: 4.5%;
+    text-align: center;
+    width: 150px;
+}
+
+#ontwikkelaars {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 70%;
+    text-align: center;
+    width: 150px;
+}
+
+#HelpCentrum {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 130%;
+    width: 95px;
+    text-align: center;
+    width: 150px;
+}
+
+#voorwaarden {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 195%;
+    text-align: center;
+    width: 151px;
+}
