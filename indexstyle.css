@@ -45,7 +45,6 @@
 }
 
 #button-account-maken{
-    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -53,8 +52,7 @@
     left: 135%;
     width: 7cm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    background-image: rgb(74, 168, 240); 
+    background-color: rgb(74, 168, 240); 
     border: none; 
     color: white; 
     text-align: center;
@@ -65,7 +63,7 @@
     cursor: pointer;
     padding: 15px 32px;
     transition-duration: 0.4s; 
-    }
+}
 
 
 
@@ -85,7 +83,6 @@
 
 
 #button-inloggen {
-    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -130,4 +127,47 @@
 
 #button-inloggen:hover {
 background-color: #1e8888;
+}
+
+
+
+#OverOns {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 4.5%;
+    text-align: center;
+    width: 150px;
+}
+
+#ontwikkelaars {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 60%;
+    text-align: center;
+    width: 150px;
+}
+
+#HelpCentrum {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 115%;
+    width: 95px;
+    text-align: center;
+    width: 150px;
+}
+
+#voorwaarden {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 235%;
+    left: 174%;
+    text-align: center;
+    width: 150px;
 }
