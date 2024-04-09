@@ -5,7 +5,7 @@
 
 #homepagina {
     background-image: linear-gradient(#000000, rgb(59, 135, 193));
-    height: 100vh;
+    height: 130vh;
     width: 99vw;
 }
 
@@ -119,9 +119,9 @@
 #aanmaak-button {
     border: solid 1px white;
     position: absolute;
-    top: 950%;
-    transform: translate(-40%, -50%);
+    top: 930%;
     color: white;
+    right: -160%;
     width: 12cm;
     height: 1cm;
     padding: 15px 10px 10px 10px;
@@ -129,3 +129,8 @@
     font-size: 1.6em;
 }
 
+#aanmaak-button:hover {
+    background-color: #1e8888; 
+    transition-duration: 0.4s; 
+    cursor: pointer;
+}
