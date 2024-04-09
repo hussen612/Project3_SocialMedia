@@ -100,7 +100,7 @@
     color: white;
     right: -160%;
     width: 12cm;
-    height: 1cm;
+    height: 2cm;
     padding: 15px 10px 10px 10px;
     text-align: center;
     font-size: 1.6em;
@@ -110,4 +110,15 @@
     background-color: #1e8888; 
     transition-duration: 0.4s; 
     cursor: pointer;
+}
+
+#links {
+    position: absolute;
+    color: white;
+    border: solid 1px white;
+    width: 9cm;
+    text-align: center;
+    font-size: 1.2em;
+    top: 880%;
+    right: -100%;
 }

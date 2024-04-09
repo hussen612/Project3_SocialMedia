@@ -10,16 +10,27 @@
     <div id="homepagina">
         <div id="login-template">
             <div id="main-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" alt="">
-            <div id="kruis">&#10005;</div>
+            <a href="homepagina.html"><div id="kruis">&#10005;</div></a>
             <div id="titel1">Log in</div>
 
-            <div id="titel2">Naam</div>
-            <div id="beschrijving1"></div>
 
-            <div id="titel3">Wachtwoord</div>
-            <div id="beschrijving2"></div>
+            <div class="login-formulier">
+                <label for="naam" id="titel2">Naam</label>
+                <input type="text" name="naam" id="beschrijving1" required>
+            </div>
 
-            <div id="aanmaak-button">Inloggen</div>
+            <div class="login-formulier">
+                <label for="wachtwoord" id="titel3">Wachtwoord</label>
+                <input type="text" name="wachtwoord" id="beschrijving2" required>
+            </div>
+
+            <div class="login-button">
+                <input type="submit" name="submit" value="Inloggen" id="aanmaak-button">
+            </div>
+
+            <div id="links">
+                Heeft u nog geen account? <a href="registratie.html">Registreer nu!</a> 
+            </div>
         </div>
     </div>
 </body>
