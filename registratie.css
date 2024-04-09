@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#homepagina {
+    background-image: linear-gradient(#000000, rgb(59, 135, 193));
+    height: 100vh;
+    width: 99vw;
+}
+
+#main-image {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+    height: 80px;
+}
+
+#login-template {
+    border: solid 1px white;
+    position: absolute;
+    width: 60%;
+    height: 800px;
+    top: 10%;
+    left: 18%;
+    border-radius: 5%;
+    background-image: linear-gradient(#000d1d, rgb(105, 187, 249));
+}
+
+#kruis {
+    border: solid 1px white;
+    position: absolute;
+    top: 10%;
+    right: 320%;
+    font-size: 4em;
+    color: white;
+    height: 70px;
+}
+
+#titel1 {
+    border: solid 1px white;
+    position: absolute;
+    top: 170%;
+    color: white;
+    right: 30%;
+    width: 10cm;
+    height: 1cm;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#titel2 {
+    border: solid 1px white;
+    position: absolute;
+    top: 280%;
+    right: 255%;
+    color: white;
+    font-size: 1.5em;
+    width: 100px;
+    text-align: center;
+}
+
+#titel3 {
+    border: solid 1px white;
+    position: absolute;
+    top: 500%;
+    right: 255%;
+    color: white;
+    font-size: 1.5em;
+    width: 100px;
+    text-align: center;
+}
+
+#titel4 {
+    border: solid 1px white;
+    position: absolute;
+    top: 720%;
+    right: 232%;
+    color: white;
+    font-size: 1.5em;
+    width: 130px;
+    text-align: center;
+}
+
+#beschrijving1 {
+    border: solid 1px white;
+    position: absolute;
+    top: 330%;
+    right: -182%;
+    width: 18cm;
+    height: 2cm;
+}
+
+#beschrijving2 {
+    border: solid 1px white;
+    position: absolute;
+    top: 550%;
+    right: -182%;
+    width: 18cm;
+    height: 2cm;
+}
+
+#beschrijving3 {
+    border: solid 1px white;
+    position: absolute;
+    top: 772%;
+    right: -182%;
+    color: white;
+    font-size: 1.5em;
+    width: 18cm;
+    height: 2cm;
+    text-align: center;
+}
+
+#aanmaak-buttton {
+    border: solid 1px white;
+    position: absolute;
+    top: 50%;
+}
+
