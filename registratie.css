@@ -23,7 +23,7 @@
     border: solid 1px white;
     position: absolute;
     width: 60%;
-    height: 900px;
+    height: 910px;
     top: 10%;
     left: 18%;
     border-radius: 20px;
@@ -135,4 +135,15 @@
     background-color: #1e8888; 
     transition-duration: 0.4s; 
     cursor: pointer;
+}
+
+#links {
+    position: absolute;
+    color: white;
+    border: solid 1px white;
+    width: 9cm;
+    text-align: center;
+    font-size: 1.2em;
+    top: 1030%;
+    right: -100%;
 }
