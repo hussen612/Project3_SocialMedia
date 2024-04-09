@@ -93,6 +93,7 @@
     right: -283%;
     width: 18cm;
     height: 2cm;
+    font-size: larger;
 }
 
 #beschrijving2 {
@@ -102,6 +103,7 @@
     right: -283%;
     width: 18cm;
     height: 2cm;
+    font-size: larger;
 }
 
 #beschrijving3 {
@@ -109,11 +111,10 @@
     position: absolute;
     top: 772%;
     right: -280%;
-    color: white;
     font-size: 1.5em;
     width: 18cm;
     height: 2cm;
-    text-align: center;
+    font-size: larger;
 }
 
 #aanmaak-button {
@@ -121,9 +122,9 @@
     position: absolute;
     top: 930%;
     color: white;
-    right: -160%;
+    right: -170%;
     width: 12cm;
-    height: 1cm;
+    height: 2cm;
     padding: 15px 10px 10px 10px;
     text-align: center;
     font-size: 1.6em;

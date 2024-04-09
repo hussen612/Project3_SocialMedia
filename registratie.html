@@ -13,17 +13,25 @@
             <a href="homepagina.html"><div id="kruis">&#10005;</div></a>
             <div id="titel1">Maak een account aan</div>
 
-            <div id="titel2">Naam</div>
-            <div id="beschrijving1"></div>
 
-            <div id="titel3">E-mail</div>
-            <div id="beschrijving2"></div>
+            <div class="registratie-formulier">
+                <label for="naam" id="titel2">Naam</label>
+                <input type="text" name="naam" id="beschrijving1" required>
+            </div>
 
-            <div id="titel4">Wachtwoord</div>
-            <div id="beschrijving3"></div>
+            <div class="registratie-formulier">
+                <label for="email" id="titel3">E-mail</label>
+                <input type="text" name="email" id="beschrijving2" required>
+            </div>
 
-            <div id="aanmaak-button">Klaar</div>
-        </div>
+            <div class="registratie-formulier">
+                <label for="wachtwoord" id="titel4">Wachtwoord</label>
+                <input type="text" name="wachtwoord" id="beschrijving3" required>
+            </div>
+
+            <div class="registratie-button">
+                <input type="submit" name="submit" value="Aanmaken" id="aanmaak-button">
+            </div>
     </div>
 </body>
 </html>
