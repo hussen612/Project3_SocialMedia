@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(190, 225, 255);
+}
+
+#main-image {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+    height: 80px;
+}
+
+#login-template {
+    border: solid 1px white;
+    position: absolute;
+    width: 60%;
+    height: 710px;
+    top: 10%;
+    left: 18%;
+    border-radius: 20px;
+    background-image: linear-gradient(#000d1d, rgb(105, 187, 249));
+}
+
+#kruis {
+    border: solid 1px white;
+    position: absolute;
+    top: 10%;
+    right: 430%;
+    font-size: 4em;
+    color: white;
+    height: 70px;
+}
+
+#titel1 {
+    border: solid 1px white;
+    position: absolute;
+    top: 170%;
+    color: white;
+    right: 30%;
+    width: 10cm;
+    height: 1.5cm;
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+#titel2 {
+    border: solid 1px white;
+    position: absolute;
+    top: 280%;
+    right: 315%;
+    color: white;
+    font-size: 1.5em;
+    width: 100px;
+    text-align: center;
+}
+
+#titel3 {
+    border: solid 1px white;
+    position: absolute;
+    top: 500%;
+    right: 315%;
+    color: white;
+    font-size: 1.5em;
+    width: 100px;
+    text-align: center;
+}
+
+#titel4 {
+    border: solid 1px white;
+    position: absolute;
+    top: 720%;
+    right: 285%;
+    color: white;
+    font-size: 1.5em;
+    width: 130px;
+    text-align: center;
+}
+
+#beschrijving1 {
+    border: solid 1px white;
+    position: absolute;
+    top: 330%;
+    right: -283%;
+    width: 18cm;
+    height: 2cm;
+    font-size: larger;
+}
+
+#beschrijving2 {
+    border: solid 1px white;
+    position: absolute;
+    top: 550%;
+    right: -283%;
+    width: 18cm;
+    height: 2cm;
+    font-size: larger;
+}
+
+#beschrijving3 {
+    border: solid 1px white;
+    position: absolute;
+    top: 772%;
+    right: -280%;
+    font-size: 1.5em;
+    width: 18cm;
+    height: 2cm;
+    font-size: larger;
+}
+
+#aanmaak-button {
+    border: solid 1px white;
+    position: absolute;
+    top: 710%;
+    color: white;
+    right: -170%;
+    width: 12cm;
+    height: 2cm;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    font-size: 1.6em;
+    border-radius: 20px;
+}
+
+#aanmaak-button:hover {
+    background-color: #1e8888; 
+    transition-duration: 0.4s; 
+    cursor: pointer;
+}
+
+#links {
+    position: absolute;
+    color: white;
+    border: solid 1px white;
+    width: 9cm;
+    text-align: center;
+    font-size: 1.2em;
+    top: 1030%;
+    right: -100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+
+.box {
+    background: rgb(233, 247, 255);
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.form-box {
+    width: 450px;
+    margin: 0px 10px;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(233, 247, 255);
+}
+
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input {
+    height: 400px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(165, 165, 251);
+    outline: none;
+}
+
+.btn {
+    height: 35px;
+    background: rgba(76,68,182,0.8);
+    border: 0;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+.submit {
+    width: 100%;
+}
+
+.link {
+    margin-bottom: 15px;
+}
+
+.navigatiesysteem {
+    background: #ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.rechter-links a {
+    padding: 0 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.main-box .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom {
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width:840px) {
+    .main-box .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top .box {
+        margin: 10px 10px;
+    }
+    .bottom {
+        margin-top: 0
+    }
+}
