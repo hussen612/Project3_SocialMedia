@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#homepagina {
+    background-image: linear-gradient(#000000, rgb(59, 135, 193));
+    height: 150vh;
+    width: 99vw;
+}
+
+#main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    margin-left: 20px;
+}
