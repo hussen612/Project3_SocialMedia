@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px black;
 }
 
 #homepagina {
@@ -37,6 +38,12 @@
     box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
                 0 32px 64px -48px rgba(0,0,0,0.5);
     border-radius: 20px;
+    text-shadow: 2px 2px black;
+    transition: width 3s;
+}
+
+#naam1:hover, #naam2:hover, #naam3:hover {
+    width: 390px;
 }
 
 #rang1, #rang2, #rang3 {
@@ -44,10 +51,16 @@
     box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
     0 32px 64px -48px rgba(0,0,0,0.5);
     border-radius: 20px;
+    text-shadow: 2px 2px black;
+    transition: width 3s;
+}
+
+#rang1:hover, #rang2:hover, #rang3:hover {
+    width: 390px;
 }
 
 #about, #HelpCenter, #terms {
-    background-image: radial-gradient(rgb(109, 177, 229), rgb(170, 206, 236));
+    background-image: linear-gradient(rgb(109, 177, 229), rgb(43, 91, 131));
     box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
     0 32px 64px -48px rgba(0,0,0,0.5);
 }
@@ -167,7 +180,7 @@
     padding: 10px;
     position: absolute;
     top: 140%;
-    left: 45%;
+    left: 45.5%;
     width: 95px;
     text-align: center;
     width: 150px;
@@ -181,4 +194,13 @@
     left: 66%;
     text-align: center;
     width: 151px;
+}
+
+a {
+    color: white;
+    transition: font-size 3s;
+}
+
+a:hover {
+    font-size: larger;
 }
