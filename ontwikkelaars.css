@@ -15,15 +15,8 @@
     align-items: center;
     position: absolute;
     top: 50%;
-    left: 25%;
     transform: translate(-50%, -50%);
     margin-left: 20px;
-}
-
-#logo {
-    position: absolute;
-    border: 1px solid rgb(255, 255, 255);
-    color: white;
 }
 
 #titel1 {
@@ -55,6 +48,7 @@
     position: absolute;
     border: 1px solid rgb(255, 255, 255);
     color: white;
+    width: 100px;
 }
 #naam2 {
     position: absolute;
