@@ -19,3 +19,67 @@
     transform: translate(-50%, -50%);
     margin-left: 20px;
 }
+
+#logo {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+#titel1 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+
+#foto1 {
+ position: absolute;
+ border: 1px solid rgb(255, 255, 255);
+ color: white;
+ width: 100px;
+}
+#naam1 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+#rang1 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+
+#foto2 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+#naam2 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+#rang2 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+
+
+#foto3 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+#naam3 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+#rang3 {
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
