@@ -33,6 +33,8 @@
     text-align: center;
     padding: 20px;
     color: white;
+    background-image: radial-gradient(rgb(94, 149, 191), rgb(2, 34, 59));
+    border-radius: 20px;
 }
 
 #beschrijving2 {
@@ -44,49 +46,44 @@
     top: 22%;
     left: 125%;
     color: white;
+    background-image: linear-gradient(rgb(40, 102, 149), rgb(166, 214, 251));
+    border-radius: 20px;
 }
 
-#nav-homepagina {
-    position: absolute;
-}
 
-#nav-homepagina {
+#developers {
     border: solid 1px white;
     padding: 10px;
     position: absolute;
-    top: 140%;
-    left: 4.5%;
+    top: 135%;
+    left: 30%;
     text-align: center;
     width: 150px;
 }
 
-#ontwikkelaars {
+#HelpCenter {
     border: solid 1px white;
     padding: 10px;
     position: absolute;
-    top: 140%;
-    left: 70%;
-    text-align: center;
-    width: 150px;
-}
-
-#HelpCentrum {
-    border: solid 1px white;
-    padding: 10px;
-    position: absolute;
-    top: 140%;
-    left: 135%;
+    top: 135%;
+    left: 105%;
     width: 95px;
     text-align: center;
     width: 150px;
 }
 
-#voorwaarden {
+#terms {
     border: solid 1px white;
     padding: 10px;
     position: absolute;
-    top: 140%;
-    left: 205%;
+    top: 135%;
+    left: 180%;
     text-align: center;
     width: 151px;
+}
+
+#developers, #HelpCenter, #terms {
+    background-image: radial-gradient(rgb(109, 177, 229), rgb(170, 206, 236));
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
 }

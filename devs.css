@@ -11,7 +11,6 @@
 
 #main-image {
     position: absolute;
-    border: 1px solid white;
     width: 100px;
     left: 48%;
     top: 30px;
@@ -27,6 +26,31 @@
     padding: 10px;
 }
 
+#foto1, #foto2, #foto3 {
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+#titel1, #naam1, #naam2, #naam3 {
+    background-image: radial-gradient(rgb(94, 149, 191), rgb(2, 34, 59));
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+#rang1, #rang2, #rang3 {
+    background-image: radial-gradient(rgb(166, 214, 251), rgb(40, 102, 149));
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+#about, #HelpCenter, #terms {
+    background-image: radial-gradient(rgb(109, 177, 229), rgb(170, 206, 236));
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    0 32px 64px -48px rgba(0,0,0,0.5);
+}
 
 #foto1 {
  position: absolute;
@@ -126,4 +150,35 @@
     text-align: center;
     font-size: 1.4em;
     padding: 40px 10px 0 10px;
+}
+
+#about {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 140%;
+    left: 25%;
+    text-align: center;
+    width: 150px;
+}
+
+#HelpCenter {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 140%;
+    left: 45%;
+    width: 95px;
+    text-align: center;
+    width: 150px;
+}
+
+#terms {
+    border: solid 1px white;
+    padding: 10px;
+    position: absolute;
+    top: 140%;
+    left: 66%;
+    text-align: center;
+    width: 151px;
 }
